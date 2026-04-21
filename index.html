@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="pt-BR" style="background:#0A0A0A;">
+<html lang="pt-BR" style="background:#0A0A0A;color:#FAFAFA;">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
@@ -41,7 +41,7 @@ button { font-family: inherit; -webkit-appearance: none; appearance: none; color
 
 html, body {
 background: #0A0A0A;
-color: var(–text);
+color: #FAFAFA !important;
 font-family: -apple-system, BlinkMacSystemFont, ‘SF Pro Display’, ‘SF Pro Text’, ‘Inter’, sans-serif;
 -webkit-font-smoothing: antialiased;
 overflow-x: hidden;
@@ -88,7 +88,7 @@ font-size: 20px;
 font-weight: 700;
 letter-spacing: -0.03em;
 text-transform: lowercase;
-color: var(–text);
+color: #FAFAFA !important;
 }
 .brand::before {
 content: ‘’;
@@ -495,7 +495,7 @@ text-align: center;
 .empty-icon {
 font-family: ‘JetBrains Mono’, monospace;
 font-size: 32px;
-color: var(–text-4);
+color: rgba(250,250,250,0.25) !important;
 margin-bottom: 16px;
 letter-spacing: 0.1em;
 }
@@ -506,17 +506,18 @@ font-weight: 600;
 letter-spacing: 0.05em;
 margin-bottom: 8px;
 text-transform: uppercase;
+color: #FAFAFA !important;
 }
 .empty-desc {
 font-size: 13px;
-color: var(–text-2);
+color: rgba(250,250,250,0.6) !important;
 line-height: 1.5;
 max-width: 280px;
 margin: 0 auto 24px;
 }
 .btn-primary {
-background: var(–green);
-color: #0A0A0A;
+background: #00C566 !important;
+color: #0A0A0A !important;
 padding: 12px 24px;
 border-radius: 6px;
 font-family: ‘JetBrains Mono’, monospace;
@@ -524,6 +525,8 @@ font-size: 12px;
 font-weight: 700;
 letter-spacing: 0.1em;
 text-transform: uppercase;
+-webkit-appearance: none;
+appearance: none;
 }
 .btn-primary:active { opacity: 0.8; }
 
@@ -969,7 +972,7 @@ display: flex;
   </div>
 
   <div style="padding: 30px 20px; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.15em; color: var(--text-3); text-transform: uppercase;">
-    Edge · v1.1<br/>
+    Edge · v1.2<br/>
     Local data · Offline first
   </div>
 </div>
